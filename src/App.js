@@ -777,12 +777,12 @@ export default function OrthonCareLanding() {
             OrthonCare révolutionne la gestion de votre pratique orthodontique avec une solution complète, sécurisée et intuitive. Rejoignez plus de 5000 professionnels qui nous font confiance.
           </p>
           
-{/* <div className="download-buttons" id="download">
-  <a href="/download/app-release.apk" download className="btn btn-primary">
+ <div className="download-buttons" id="download">
+  <a href="https://drive.google.com/file/d/18gbXfkHKJR8VrdjBaJXQfl_ck8tnmjB_/view?usp=sharing" download className="btn btn-primary">
     <Download size={22} />
     <span>Télécharger pour Android</span>
   </a>
-</div> */}
+</div> 
 
         </div>
       </section>
