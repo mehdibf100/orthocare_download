@@ -24,43 +24,43 @@ export default function OrthonCareLanding() {
   const features = [
     {
       icon: Shield,
-      title: "Sécurisé et Confidentiel",
-      description: "Vos données de santé sont protégées par un cryptage de niveau médical"
+      title: "Guidage RAAC ",
+      description: "Une checklist numérique fondée sur le concept RAAC, enrichie de supports vidéos pédagogiques."
     },
     {
       icon: Users,
-      title: "Suivi Patient Intelligent",
-      description: "Gérez tous vos patients avec un système de suivi complet et intuitif"
+      title: "Suivi des complications",
+      description: "Un clic suffit pour anticiper les complications post-opératoires."
     },
     {
       icon: Smartphone,
-      title: "Accessible Partout",
-      description: "Accédez à vos dossiers depuis n'importe quel appareil, à tout moment"
+      title: "Dossier Patient / Infirmier numérique",
+      description: "Toutes les données patients, accessibles instantanément et en toute sécurité."
     },
     {
       icon: Star,
-      title: "Interface Intuitive",
-      description: "Une expérience utilisateur pensée pour les professionnels de santé"
+      title: "Formation Continue",
+      description: "Une bibliothèque numérique de documents éducatifs pour renforcer vos compétences."
     }
   ];
 
   const testimonials = [
     {
-      name: "Dr. Sarah Martin",
-      role: "Orthodontiste",
-      text: "OrthonCare a transformé ma pratique. Je gagne 3 heures par jour sur la gestion administrative.",
+      name: "Florence Nightingale ",
+      role: "",
+      text: "Les soins infirmiers sont un art : et s’ils doivent être un art, ils exigent une dévotion aussi exclusive qu’un travail de peintre ou de sculpteur",
       rating: 5
     },
     {
-      name: "Dr. Ahmed Benali",
-      role: "Chirurgien-dentiste",
-      text: "L'application la plus complète du marché. Mes patients adorent le suivi en temps réel.",
+      name: "Erasmus",
+      role: "",
+      text: "Prévenir vaut mieux que guérir",
       rating: 5
     },
     {
-      name: "Dr. Marie Dubois",
-      role: "Orthodontiste pédiatrique",
-      text: "Indispensable pour mon cabinet. Le support client est exceptionnel !",
+      name: "Nicolas Andry",
+      role: "",
+      text: "La chirurgie restaure la forme, mais la rééducation rend la fonction.",
       rating: 5
     }
   ];
@@ -739,7 +739,7 @@ export default function OrthonCareLanding() {
       {/* Navigation */}
       <nav className={`nav-header ${scrolled ? 'scrolled' : ''}`}>
         <div className="nav-content">
-          <div className="logo">OrthonCare</div>
+          <div className="logo">OrthoCare</div>
           <div className={`nav-links ${isMenuOpen ? 'mobile-open' : ''}`}>
             <a href="#features" className="nav-link">Fonctionnalités</a>
             <a href="#testimonials" className="nav-link">Témoignages</a>
@@ -766,21 +766,21 @@ export default function OrthonCareLanding() {
         <div className="hero-content">
           <div className="badge">
             <Star size={18} fill="currentColor" />
-            <span>L'application n°1 pour les orthodontistes</span>
+            <span>La solution numérique dédiée à l’orthopédie</span>
           </div>
           
           <h1 className="hero-title">
-            Gérez votre cabinet avec excellence
+            Elever la qualité de vos soins vers l’excellence
           </h1>
           
           <p className="hero-subtitle">
-            OrthonCare révolutionne la gestion de votre pratique orthodontique avec une solution complète, sécurisée et intuitive. Rejoignez plus de 5000 professionnels qui nous font confiance.
+            OrthoCare+ optimise les pratiques et renforce les connaissances infirmières afin d’assurer une prise en charge sécurisée, efficace et moderne des patients en chirurgie orthopédique.
           </p>
           
  <div className="download-buttons" id="download">
   <a href="https://drive.google.com/file/d/1i3z8FbvGXgO2apMgb79B7mALiJDT48nT/view?usp=sharing" download className="btn btn-primary">
     <Download size={22} />
-    <span>Télécharger pour Android</span>
+    <span>Télécharger</span>
   </a>
 </div> 
 
@@ -791,29 +791,30 @@ export default function OrthonCareLanding() {
       <section className="stats-section">
         <div className="stats-grid">
           <div className="stat-card">
-            <div className="stat-number">5000+</div>
-            <div className="stat-label">Professionnels actifs</div>
+            <div className="stat-number">3+</div>
+            <div className="stat-label">Présente dans 3 établissements sanitaires
+</div>
           </div>
           <div className="stat-card">
-            <div className="stat-number">50K+</div>
-            <div className="stat-label">Patients suivis</div>
+            <div className="stat-number">8K+</div>
+            <div className="stat-label">Déployé au sein de 8 services orthopédiques</div>
           </div>
           <div className="stat-card">
-            <div className="stat-number">4.9★</div>
-            <div className="stat-label">Note moyenne</div>
+            <div className="stat-number">5.0★</div>
+            <div className="stat-label">Soins standardisés</div>
           </div>
           <div className="stat-card">
-            <div className="stat-number">99.9%</div>
-            <div className="stat-label">Disponibilité</div>
+            <div className="stat-number">24h/24</div>
+            <div className="stat-label">Ne manquer aucune étape essentielle</div>
           </div>
         </div>
       </section>
 
       {/* Features Section */}
       <section className="features-section" id="features">
-        <h2 className="section-title">Tout ce dont vous avez besoin</h2>
+        <h2 className="section-title">Conçu sur les principes de la RAAC </h2>
         <p className="section-subtitle">
-          Une suite complète d'outils conçus spécifiquement pour les orthodontistes modernes
+         La Réhabilitation Améliorée Après Chirurgie : un programme multimodal optimisant la prise en charge péri-opératoire
         </p>
         
         <div className="features-grid">
@@ -834,9 +835,9 @@ export default function OrthonCareLanding() {
 
       {/* Testimonials Section */}
       <section className="testimonials-section" id="testimonials">
-        <h2 className="section-title">Ce que disent nos utilisateurs</h2>
+        <h2 className="section-title">Soyez vigilants et compétents</h2>
         <p className="section-subtitle">
-          Des milliers de professionnels satisfaits à travers le monde
+           Vos soins infirmiers représentent l’espoir d’un patient
         </p>
         
         <div className="testimonials-grid">
@@ -859,9 +860,9 @@ export default function OrthonCareLanding() {
       <section className="cta-section">
         <div className="cta-box">
           <div className="cta-content">
-            <h2 className="cta-title">Prêt à transformer votre pratique ?</h2>
+            <h2 className="cta-title">Prêt(e) à améliorer votre savoir-être et votre savoir-faire ?</h2>
             <p className="cta-text">
-              Rejoignez la révolution OrthonCare et découvrez une nouvelle façon de gérer votre cabinet
+              Télécharger l’application et transformez votre pratique dès aujourd’hui
             </p>
             <div className="download-buttons">
               <a href="#" className="btn btn-primary">
