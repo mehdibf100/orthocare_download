@@ -778,7 +778,7 @@ export default function OrthonCareLanding() {
           </p>
           
  <div className="download-buttons" id="download">
-  <a href="https://drive.google.com/file/d/1TCIReoJLnALBTWqRvkYA4D_ePmOQGzWJ/view?usp=sharing" download className="btn btn-primary">
+  <a href="https://drive.google.com/file/d/1yBjHoEVzetYrAJQbm_cwyGyMcjuXNV_k/view?usp=sharing" download className="btn btn-primary">
     <Download size={22} />
     <span>Télécharger</span>
   </a>
