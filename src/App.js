@@ -778,7 +778,7 @@ export default function OrthonCareLanding() {
           </p>
           
  <div className="download-buttons" id="download">
-  <a href="https://drive.google.com/file/d/1X-nadzrLb9us_fHdy8c96W4hR3Q343Gz/view?usp=sharing" download className="btn btn-primary">
+  <a href="/download/Othocare.apk" download className="btn btn-primary">
     <Download size={22} />
     <span>Télécharger</span>
   </a>
